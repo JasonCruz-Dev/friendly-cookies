@@ -1,0 +1,28 @@
+// Navigation code here
+.nav-container {
+   .displayFlex(column wrap, center, center);
+   width: 100%;
+   background-color: #22283A;
+   color: white;
+   height: 100px;
+   position: sticky;
+   top: 0;
+   z-index: 2;
+ 
+   h1 {
+     font-size: 4rem;
+     margin-bottom: 10px;
+     margin-left: 35px;
+     color: white;
+   }
+ 
+   nav a {
+     .navLink(none, @nav-font, 1.6rem);
+     margin-left: 30px;
+     color: white;
+   }
+ 
+   nav a:hover {
+     transform: scale(1.2);
+   }
+ }  
